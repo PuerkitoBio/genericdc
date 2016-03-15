@@ -9,10 +9,10 @@ let g:colors_name = "genericdc"
 
 hi Normal       ctermfg=251 ctermbg=235
 hi Special      ctermfg=253 ctermbg=NONE
-hi Comment      ctermfg=239 ctermbg=NONE cterm=italic
+hi Comment      ctermfg=249 ctermbg=NONE cterm=italic
 hi Constant     ctermfg=249 ctermbg=NONE
 hi String       ctermfg=110 ctermbg=NONE
-hi Number       ctermfg=167 ctermbg=NONE
+hi Number       ctermfg=110 ctermbg=NONE
 hi htmlTagName  ctermfg=249 ctermbg=NONE
 hi Identifier   ctermfg=239 ctermbg=NONE
 hi Statement    ctermfg=243 ctermbg=NONE cterm=NONE
@@ -82,17 +82,22 @@ hi link goUnsignedInts gotypes
 hi link goFloats       gotypes
 hi link goComplexes    gotypes
 
-hi goOperator    ctermfg=242
-hi goBuiltins    ctermfg=39
-hi goDeclaration ctermfg=242
-hi goDeclType    ctermfg=242
+hi goOperator    ctermfg=249
+hi goBuiltins    cterm=bold
+hi goDeclaration ctermfg=249
+hi goDeclType    ctermfg=249
 
-hi goFunction  ctermfg=243 ctermbg=NONE cterm=italic
-hi goMethod    ctermfg=243 ctermbg=NONE cterm=NONE
-hi goStruct    ctermfg=251 ctermbg=NONE cterm=NONE
-hi goStructDef ctermfg=251 ctermbg=NONE cterm=italic
+hi goFunction  ctermfg=249 ctermbg=NONE cterm=italic
+hi goMethod    ctermfg=249 ctermbg=NONE cterm=NONE
+hi goStruct    ctermfg=249 ctermbg=NONE cterm=NONE
+hi goStructDef ctermfg=249 ctermbg=NONE cterm=italic
 
 
 " NerdTree
 hi link NERDTreeDir Special
 hi NERDTreeFile     ctermfg=246
+
+" netrw
+hi link netrwDir Special
+hi link netrwExe Statement
+

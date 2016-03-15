@@ -1,6 +1,6 @@
 # genericdc
 
-Minimal VIM theme
+Minimal VIM theme adapted from https://github.com/nowk/genericdc to my liking.
 
 ## Dark
 
